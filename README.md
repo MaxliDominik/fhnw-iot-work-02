@@ -25,8 +25,8 @@ For slides and example code, see [lesson 2](../../../fhnw-iot/blob/master/02/REA
 * Starts buzzing if the countdown reaches _00:00_.
 * Use a state machine, get the time with [millis()](https://www.arduino.cc/reference/en/language/functions/time/millis/).
 
-### d) Homework, max. 3h
-* Implement or finish the kitchen timer you designed.
-* Document the timer state machine (PDF or PNG).
+### d) Challenge
+* Build and implement the kitchen timer you designed.
+* Document the timer state machine (ASCII or image).
 * Commit the code and docs to the hands-on repo.
 * Bring the (working) timer to the next lesson.
