@@ -1,0 +1,23 @@
+Zustände:
+
+0: Idle: Der Timer ist nicht aktiv.
+1: Minuten einstellen: Der Benutzer stellt die Minuten ein.
+2: Sekunden einstellen: Der Benutzer stellt die Sekunden ein.
+3: Countdown: Der Timer zählt herunter.
+4: Summen: Der Summer ertönt.
+
+Übergänge:
+
+0 -> 1: Wenn der Knopf im Idle-Zustand gedrückt wird, geht der Zustand in Minuten einstellen über.
+1 -> 2: Wenn der Knopf im Minuten einstellen-Zustand losgelassen wird, geht der Zustand in Sekunden einstellen über.
+2 -> 3: Wenn der Knopf im Sekunden einstellen-Zustand losgelassen wird, geht der Zustand in Countdown über.
+3 -> 4: Wenn der Countdown 0 erreicht, geht der Zustand in Summen über.
+4 -> 0: Wenn der Knopf im Summen-Zustand gedrückt wird, geht der Zustand in Idle zurück.
+
+Ausgaben:
+
+0: Idle: Das Display zeigt 00:00.
+1: Minuten einstellen: Das Display zeigt die aktuellen Minuten.
+2: Sekunden einstellen: Das Display zeigt die aktuellen Minuten und Sekunden.
+3: Countdown: Das Display zeigt die verbleibende Zeit.
+4: Summen: Der Summer ertönt.
